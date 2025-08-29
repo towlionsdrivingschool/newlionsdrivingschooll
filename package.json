@@ -1,0 +1,59 @@
+{
+  "name": "newlionsdriving-school",
+  "description": "newlionsdriving-school",
+  "version": "0.1.1",
+  "author": {
+    "name": "New Lions Driving School",
+    "email": "leomirandadev@gmail.com"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "shadcn",
+    "shadcn/vue",
+    "tailwind",
+    "landing-page",
+    "template",
+    "responsive-design"
+  ],
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@selemondev/vue3-marquee": "^0.0.8",
+    "@vee-validate/zod": "^4.13.2",
+    "@vueuse/core": "^11.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "embla-carousel": "^8.3.0",
+    "embla-carousel-vue": "^8.3.0",
+    "fslightbox-vue": "^2.2.1",
+    "lightbox.js-react": "^1.6.0",
+    "lucide-vue-next": "^0.452.0",
+    "radix-vue": "^1.9.7",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.5.12",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "sass-embedded": "^1.89.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
