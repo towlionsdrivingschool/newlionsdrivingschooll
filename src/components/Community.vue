@@ -13,12 +13,9 @@ import DiscordIcon from "@/icons/DiscordIcon.vue";
 </script>
 
 <template>
-  <section
-    id="community"
-    class="py-12"
-  >
+  <section id="community" class="py-12">
     <hr />
-    <div class="container py-20 sm:py-20">
+    <!-- <div class="container py-20 sm:py-20">
       <div class="lg:w-[60%] mx-auto">
         <Card
           class="bg-background shadow-none text-center flex flex-col items-center justify-center border-0"
@@ -54,7 +51,7 @@ import DiscordIcon from "@/icons/DiscordIcon.vue";
           </CardFooter>
         </Card>
       </div>
-    </div>
+    </div> -->
     <hr />
   </section>
 </template>

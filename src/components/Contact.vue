@@ -84,7 +84,7 @@ const handleSubmit = () => {
               <div class="font-bold">Mail Us</div>
             </div>
 
-            <div>leomirandadev@gmail.com</div>
+            <div>towlionsdrivingschool@gmail.com</div>
           </div>
 
           <div>
@@ -109,22 +109,22 @@ const handleSubmit = () => {
             <div class="flex flex-col md:flex-row gap-8">
               <div class="flex flex-col w-full gap-1.5">
                 <Label for="first-name">First Name</Label>
-                <Input id="first-name" type="text" placeholder="Leopoldo" v-model="contactForm.firstName" />
+                <Input id="first-name" type="text" placeholder="" v-model="contactForm.firstName" />
               </div>
 
               <div class="flex flex-col w-full gap-1.5">
                 <Label for="last-name">Last Name</Label>
-                <Input id="last-name" type="text" placeholder="Miranda" v-model="contactForm.lastName" />
+                <Input id="last-name" type="text" placeholder="" v-model="contactForm.lastName" />
               </div>
             </div>
 
             <div class="flex flex-col gap-1.5">
               <Label for="email">Email</Label>
-              <Input id="email" type="email" placeholder="leomirandadev@gmail.com" v-model="contactForm.email" />
+              <Input id="email" type="email" placeholder="" v-model="contactForm.email" />
             </div>
 
             <div class="flex flex-col gap-1.5">
-              <Label for="subject">Subject</Label>
+              <Label for="subject">Vehicle</Label>
 
               <Select v-model="contactForm.subject">
                 <SelectTrigger>
@@ -133,15 +133,14 @@ const handleSubmit = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectItem value="Web Development">
-                      Web Development
+                      Two Wheeler without gear
                     </SelectItem>
                     <SelectItem value="Mobile Development">
-                      Mobile Development
+                      Two Wheeler with gear
                     </SelectItem>
-                    <SelectItem value="Figma Design"> Figma Design </SelectItem>
-                    <SelectItem value="REST API "> REST API </SelectItem>
+
                     <SelectItem value="FullStack Project">
-                      FullStack Project
+                      Four Wheeler
                     </SelectItem>
                   </SelectGroup>
                 </SelectContent>

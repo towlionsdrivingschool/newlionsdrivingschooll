@@ -4,17 +4,12 @@
   "version": "0.1.1",
   "author": {
     "name": "New Lions Driving School",
-    "email": "leomirandadev@gmail.com"
+    "email": "towlionsdrivingschool@gmail.com"
   },
   "keywords": [
-    "vue",
-    "typescript",
-    "shadcn",
-    "shadcn/vue",
-    "tailwind",
-    "landing-page",
-    "template",
-    "responsive-design"
+    "New Lions Driving School",
+    "kavalam",
+    "best driving school"
   ],
   "type": "module",
   "private": true,
